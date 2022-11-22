@@ -1,0 +1,15 @@
+#!/bin/bash
+yum install httpd -y
+systemctl enable httpd
+mkdir /var/www/html/orders/
+echo "<h1>hello</h1>" > /var/www/html/orders/index.html
+systemctl start httpd
+
+#!/bin/bash
+yum install httpd -y
+systemctl enable httpd
+mkdir /var/www/html/payments/
+echo "<h1>hello payments</h1>" > /var/www/html/payments/index.html
+systemctl start httpd
+
+hh
