@@ -1,3 +1,3 @@
-hello , how are you
-hi
-new
+#!bin/bash
+pwd
+
